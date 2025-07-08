@@ -65,7 +65,7 @@ pip install -r requirements.txt
 > 🎓 HIT | 2025 二学位人工智能编程实践课程项目  
 > 🗂️ GitHub: [@Branko6668](https://github.com/Branko6668)
 
----
+
 
 ---
 
@@ -73,4 +73,4 @@ pip install -r requirements.txt
 
 本项目仅用于课程学习作业记录。
 
-```
+
