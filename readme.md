@@ -26,6 +26,7 @@
 ```bash
 cd No2_KMeans_KNN
 python Kmeans_KNN.py
+```
 
 ---
 
