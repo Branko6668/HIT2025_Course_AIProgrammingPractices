@@ -1,0 +1,24 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+
+# IDE 配置文件
+.idea/
+*.iml
+
+# 虚拟环境
+.venv/
+env/
+venv/
+
+# 日志、临时文件
+*.log
+*.tmp
+*.bak
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
+
+# 项目生成结构文件（可选忽略）
+structure.txt

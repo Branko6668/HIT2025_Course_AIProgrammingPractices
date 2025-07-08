@@ -1,39 +1,31 @@
+## 🎯 项目概览
 
-# 🌸 KMeans & KNN 可视化平台（Iris 鸢尾花数据集）
-
-这是一个使用 Python + Tkinter + Scikit-Learn 构建的图形化数据分析平台，融合了两种经典算法：  
-- 🔷 **KMeans 聚类**
-- 🔷 **KNN 分类**
-
-项目界面简洁直观，支持 CSV/Excel 数据导入，可视化展示模型结果，并包含基础的 Q&A 教学内容。适合作为人工智能与机器学习课程的实践项目。
-
+- 这是一个用于管理HIT人工智能二学位的《人工智能编程实践》课程中所有作业的综合性仓库。每个作业以独立模块形式组织，涵盖算法设计、数据可视化、GUI 应用开发等内容，旨在将理论知识转化为实践能力。
+- 时间不足、能力不足、粗糙完成
 ---
 
-## 📁 项目结构
+## 🧠 目录
 
-```
-├── main.py                    # 主程序入口，UI 和所有功能实现
-├── Iris.csv                  # 鸢尾花示例数据（默认加载）
-├── README.md                 # 本说明文件
-```
+### ✅ No1_nQueens：N 皇后问题求解器
+- 基于回溯算法实现任意规模的皇后摆放
+- 图形化展示解法过程与摆放效果
+- 支持用户输入 `n` 并实时显示结果
 
----
+### ✅ No2_KMeans_KNN：可视化数据分析平台
+- 聚类分析：KMeans + Elbow Method（肘部法）图形辅助选择 `k`
+- 分类识别：KNN 分类器 + 性能指标分析
+- 支持 Excel/CSV 数据加载，界面交互友好
+- 内置 Q&A 学习提示，便于理解算法原理
 
-## 🧠 项目功能
 
-### KMeans 聚类模块：
-- 从数据集中提取 4 个特征进行聚类
-- 自定义聚类数 `k`
-- 可视化显示：
-  - 每个聚类中心的数值表格
-  - ✨ Elbow Method（肘部法）图表辅助选择最佳 `k`
 
-### KNN 分类模块：
-- 从带标签数据集中进行训练与测试划分
-- 自定义邻居数量 `k`
-- 使用 Scikit-Learn 构建 KNN 分类器并预测
-- 分类性能指标表格展示（精确率 / 召回率 / F1 值 / 支持数）
-- 可视化展示预测结果分布图
+## 🛠 使用说明
+
+运行方式（以任意模块为例）：
+
+```bash
+cd No2_KMeans_KNN
+python Kmeans_KNN.py
 
 ---
 
@@ -42,16 +34,22 @@
 使用 pip 安装以下依赖：
 
 ```bash
-pip install pandas matplotlib scikit-learn
+pip install -r requirements.txt
 ```
-
-> 若你使用 PyCharm，直接在项目的 Python Interpreter 中添加以上库即可。
 
 ---
 
 ## 🖼️ 软件界面截图
 
-> 👉（建议添加几张运行截图，展示界面效果，可放图在 `screenshots/` 文件夹，并引用）
+### ♟️ No1_nQueens 解法可视化
+![n皇后界面](screenshots/nQueens.jpg)
+
+### 📊 KMeans & KNN 主界面
+![界面 1](screenshots/Kmeans&KNN_1.jpg)
+
+### 🔍 聚类或分类结果图展示
+![界面 2](screenshots/Kmeans&KNN_2.jpg)
+
 
 ---
 
@@ -59,31 +57,20 @@ pip install pandas matplotlib scikit-learn
 
 在终端或 PyCharm 中运行：
 
-```bash
-python main.py
-```
-
 ---
 
 ## 👨‍🎓 作者信息
 
-> 👤 黄斌  | 学号：2024120483  
-> 🎓 哈尔滨工业大学 | 2025 人工智能编程实践课程项目  
+> 👤 Branko
+> 🎓 HIT | 2025 二学位人工智能编程实践课程项目  
 > 🗂️ GitHub: [@Branko6668](https://github.com/Branko6668)
 
 ---
-
-## 📌 项目亮点
-
-- ✅ 支持 Excel / CSV 自动读取
-- ✅ 完整 GUI 支持，无需命令行操作
-- ✅ 教学友好型 Q&A 功能解释算法核心概念
-- ✅ 全中文界面 + 数据展示 + 可视化图形
 
 ---
 
 ## 📜 License
 
-本项目仅用于课程学习和学术交流，禁止用于商业用途。
+本项目仅用于课程学习作业记录。
 
 ```
